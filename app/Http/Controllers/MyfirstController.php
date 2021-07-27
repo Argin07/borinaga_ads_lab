@@ -8,7 +8,11 @@ class MyfirstController extends Controller
 {
    public function index() 
 	{
-	return view ("resultpage");
+		$sum=5+2;
+	return view ('resultpage',[
+		'result' =>$sum,
+		'title' =>"sample page title"
+	]);
 	}
 }
 
