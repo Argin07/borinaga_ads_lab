@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-	Route::view('math/product', 'welcome');
+	Route::view('math/quotient', 'welcome');
 
 
 
