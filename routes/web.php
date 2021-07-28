@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-	Route::view('math/addition', 'welcome');
+	Route::view('math/product', 'welcome');
 
 
 
